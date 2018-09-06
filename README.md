@@ -87,7 +87,7 @@ _IMPORTANT: Copy the enode address_
 $ geth --datadir data/ --syncmode "full" --port 10667 --rpc --rpcaddr "localhost" --rpcport 8545 --rpcapi "personal,db,eth,net,web3,txpool,miner" --bootnodes "enode://3ec4fef2d726c2c01f16f0a0030f15dd5a81e274067af2b2157cafbf76aa79fa9c0be52c6664e80cc5b08162ede53279bd70ee10d024fe86613b0b09e1106c40@10.10.10.10:10666" --networkid 27382 --gasprice "1" -unlock "0x87366ef81db496edd0ea2055ca605e8686eec1e6" --password password.txt --mine
 ```
 Additionally few options can be added for:
-* ipcdisable - to disable IPC for example when running more than one node on same computer
+* --ipcdisable - to disable IPC for example when running more than one node on same computer
 * --rpccorsdomain "*" - to allow external connection to the RPC (for all domains)
 
 ### Add exception to the firewall
