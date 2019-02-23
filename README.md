@@ -19,6 +19,9 @@ https://docs.docker.com/registry/deploying/
 ## Starting the Blockchain
 Step by step tutorial to start the permissioned blockchain
 
+### Download Go-Ethereum
+https://geth.ethereum.org/downloads/
+
 ### Create folder on the sealer device
 ```
 mkdir data
